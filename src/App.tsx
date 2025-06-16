@@ -106,9 +106,13 @@ function App() {
     link.click()
   }
 
+  React.useEffect(() => {
+    document.title = 'Trust Banner';
+  }, []);
+
   return (
     <div className="banner-generator-container">
-      <h1>Discord Banner Generator</h1>
+      <h1>$TRUST Banner Generator</h1>
       <label>
         Discord Username:
         <input
