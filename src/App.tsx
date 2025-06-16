@@ -133,6 +133,22 @@ function App() {
       <button onClick={handleDownload} style={{ fontSize: 18, padding: '8px 24px' }}>
         Download Banner
       </button>
+      <footer className="trust-footer">
+        <a
+          href="https://github.com/jeremie-olivier/trust-banner/fork"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="fork-btn"
+        >
+          ⭐ Fork me
+        </a>
+        <div className="footer-mention">
+          Vibe coded in 10min - Rewarded 1M IQ Points
+        </div>
+        <div className="footer-dm-quote">
+          DM me on Discord if you need help building anything on Intuition
+        </div>
+      </footer>
     </div>
   )
 }
